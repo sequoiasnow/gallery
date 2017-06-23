@@ -33,7 +33,7 @@ export type MaybeRhythm = number | string
  * A simple type for all style objects.
  */
 export interface StyleObject {
-    [x: string]: MaybeRhythm
+    [x: string]: MaybeRhythm | StyleObject
 }
 
 /**

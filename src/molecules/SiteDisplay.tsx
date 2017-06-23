@@ -30,7 +30,15 @@ const SiteDisplay: React.SFC<SiteDisplayProps> = ({ content, images, selected })
         <Text dangerouslySetInnerHTML={{__html: html}} css={theme => ({
             padding: 1.5,
             color: theme.colors.white, 
-            fontFamily: theme.text.fontFamily, 
+            fontFamily: theme.text.fontFamily,
+            '& a': {
+              color: theme.colors.primary,
+              textDecoration: 'none',
+              cursor: 'pointer',
+              ':hover': {
+                textDecoration: 'underline'
+              }
+            }
           })} />
         {images.slice(1).map((image, i) => <Image url={image} />)}
       </Box>
