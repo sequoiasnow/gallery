@@ -6,7 +6,7 @@ took over that part of the effort in order to apply some more interesting
 design standards. The spiral view itself is completely based on a design I first
 saw by Nick Jones, but completely reimplemented in Reactjs. 
 
-Check out the site [here](the1codemater.github.io/history-80y). Navigate through
+Check out the site [here](https://the1codemater.github.io/history-80y). Navigate through
 scroll, click or arrow keys.
 
 [Full Source](https://github.com/the1codemaster/history-80y)
